@@ -10,6 +10,10 @@ Run SQLite on a database called __practice.db__.
 
 In this practice, you will use these example tables to make your queries:
 
+![bands-musicians-db-schema]
+
+Seed data has been provided for each table as follows: 
+
 Table `bands`:
 
 | `id` | `name`            |
@@ -82,3 +86,7 @@ Can you explain why this result is expected?
 ## Congratulations!
 
 You are now able to cascade deletion of related data using `ON DELETE CASCADE`!
+
+
+[bands-musicians-db-schema]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/bands-musicians-db-schema.png
+[bands-musicians-db-diagram-info]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/bands-musicians-db-diagram-info.txt
